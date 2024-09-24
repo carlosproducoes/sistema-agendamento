@@ -7,6 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## How to run
+
+1. git clone https://github.com/carlosproducoes/sistema-agendamento.git
+2. docker-compose up -d --build
+3. docker exec -it sistema-agendamento-app-1 bash
+4. composer install
+5. cp .env.example .env
+6. php artisan key:generate
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
