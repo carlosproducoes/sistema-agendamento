@@ -43,7 +43,7 @@ RUN mkdir -p /home/$user/.composer && \
 COPY . .
     
 # Install Laravel dependencies using Composer
-RUN composer install --no-scripts --no-autoloader
+RUN composer install
 
 # Install npm dependencies
 COPY package.json ./
